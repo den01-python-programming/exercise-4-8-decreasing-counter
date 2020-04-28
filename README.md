@@ -55,18 +55,18 @@ Implement the `decrement()` in such a way that the counter's value never becomes
 
 ```python
 def main():
-        counter = DecreasingCounter(2)
+    counter = DecreasingCounter(2)
 
-        counter.print_value()
+    counter.print_value()
 
-        counter.decrement()
-        counter.print_value()
+    counter.decrement()
+    counter.print_value()
 
-        counter.decrement()
-        counter.print_value()
+    counter.decrement()
+    counter.print_value()
 
-        counter.decrement()
-        counter.print_value()
+    counter.decrement()
+    counter.print_value()
 ```
 Prints:
 
