@@ -4,7 +4,7 @@ class DecreasingCounter:
         self.value = initial_value
 
     def print_value(self):
-        print("value: " + self.value)
+        print("value: " + str(self.value))
 
     def decrement(self):
         # write the method implementation here
