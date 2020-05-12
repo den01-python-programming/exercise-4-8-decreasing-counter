@@ -1,8 +1,8 @@
 # Exercise 4.8 Decreasing counter
 
-This exercise consists of multiple parts. Each part corresponds to one exercise point.
+This exercise consists of multiple parts.
 
-The exercise template comes with a partially executed class `decreasingCounter`:
+The exercise template comes with a partially executed class `decreasing_counter`:
 
 ```python
 class DecreasingCounter:
@@ -11,7 +11,7 @@ class DecreasingCounter:
         self.value = initial_value
 
     def print_value(self):
-        print("value: " + self.value)
+        print("value: " + str(self.value))
 
     def decrement(self):
         # write the method implementation here
@@ -23,6 +23,8 @@ class DecreasingCounter:
 The following is an example of how the main program uses the decreasing counter:
 
 ```python
+from decreasing_counter import DecreasingCounter
+
 def main():
     counter = DecreasingCounter(10)
 
