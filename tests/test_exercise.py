@@ -13,7 +13,7 @@ def test_exercise(capsys):
     counter.print_value()
 
     out, err = capsys.readouterr()
-    assert out == "10\n9\n8\n"
+    assert out == "value: 10\nvalue: 9\nvalue: 8\n"
 
     counter = DecreasingCounter(2)
 
@@ -29,4 +29,4 @@ def test_exercise(capsys):
     counter.print_value()
 
     out, err = capsys.readouterr()
-    assert out == "2\n1\n0\n0"
+    assert out == "value: 2\nvalue: 1\nvalue: 0\nvalue: 0\n"
